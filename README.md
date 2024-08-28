@@ -1,7 +1,7 @@
 # async-download-sql
 
 **Library usage**: 
-- `pandas`
+- pandas
 - os
 - sys
 - concurrent.futures -> for async reading sql scripts in code
@@ -14,16 +14,16 @@ The primary goal is to enhance data processing speed by leveraging concurrent ex
 
 **Key Features**
 
-**Asynchronous SQL Script Reading:**
+`Asynchronous SQL Script Reading:`
 
 Utilize ThreadPoolExecutor and as_completed to execute SQL scripts concurrently, significantly reducing the time needed to process multiple scripts.
 
-**Dynamic Path Management:**
+`Dynamic Path Management:`
 
 Implement sys and os modules to create dynamic paths, ensuring compatibility across different disk locations. 
 This flexibility allows users to run the project from any directory without worrying about path configurations.
 
-**Automated Excel Export:** 
+`Automated Excel Export:` 
 
 After processing, all SQL query outputs are consolidated and automatically exported into an Excel file, streamlining data analysis and reporting.
 
