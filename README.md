@@ -9,6 +9,7 @@
 - time -> to show how much code will work
   
 **Overview**
+
 This project is designed to provide a robust and efficient way to asynchronously read multiple SQL scripts using Python's concurrent.futures.ThreadPoolExecutor and as_completed methods. 
 The primary goal is to enhance data processing speed by leveraging concurrent execution, making it ideal for handling large datasets or numerous SQL queries.
 
