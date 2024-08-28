@@ -1,7 +1,7 @@
 # async-download-sql
 
 **Library usage**: 
-- pandas
+- `pandas`
 - os
 - sys
 - concurrent.futures -> for async reading sql scripts in code
